@@ -80,7 +80,7 @@ const Weather = () => {
 
 
   return (
-    <div className="Background relative h-screen w-screen flex justify-center items-center overflow-hidden"
+    <div className="Background relative h-screen w-screen flex justify-center items-center overflow-auto"
     >
       <div className="Weather absolute max-w-full max-h-full bg-gradient-to-br from-[#2f4680] to-[#500ae4] py-10 px-10 rounded-2xl overflow-auto">
         <div className="flex flex-col justify-center items-center">
