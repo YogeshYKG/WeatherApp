@@ -80,9 +80,9 @@ const Weather = () => {
 
 
   return (
-    <div className="Background h-screen w-screen flex flex-grid justify-center items-center"
+    <div className="Background relative h-screen w-screen flex justify-center items-center overflow-hidden"
     >
-      <div className="Weather bg-gradient-to-br from-[#2f4680] to-[#500ae4] py-10 px-10 rounded-2xl">
+      <div className="Weather absolute max-w-full max-h-full bg-gradient-to-br from-[#2f4680] to-[#500ae4] py-10 px-10 rounded-2xl overflow-auto">
         <div className="flex flex-col justify-center items-center">
             <div className="search-bar flex flex-row justify-center items-center gap-3">
                 <input ref={searchInputRef} type="text" placeholder='Search' className="rounded-full px-6 py-4 ring-4 ring-inset ring-offset-stone-800 bg-gray-700" />
